@@ -1,0 +1,148 @@
+{
+  "id": "06696d30-6e91-42a2-96c3-2f7ec4b95049",
+  "version": "2.0",
+  "name": "caso uno",
+  "url": "http://automationpractice.com/index.php",
+  "tests": [{
+    "id": "9ea9beed-22c3-4d3a-b85b-5bdfe092a8cd",
+    "name": "caso#5",
+    "commands": [{
+      "id": "c2053f07-7584-4853-9eef-03905d948f89",
+      "comment": "",
+      "command": "open",
+      "target": "http://automationpractice.com/index.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "840feece-cf42-4657-92fc-19af61edfb49",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1376x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "90984aef-c7c8-43b5-8a45-1ec6da3c831c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sfHover > .sf-with-ul",
+      "targets": [
+        ["css=.sfHover > .sf-with-ul", "css:finder"],
+        ["xpath=//a[contains(text(),'Women')]", "xpath:link"],
+        ["xpath=//div[@id='block_top_menu']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://automationpractice.com/index.php?id_category=3&controller=category']", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a533beb-46bf-42f1-8486-af9641ecee91",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,289)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f69de41c-b303-4af8-a040-bbd4498e8242",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,437)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4c4f8da6-eb6d-4777-a2db-b1168f4c29be",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,700)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2247b902-99dc-4389-ae72-e3055d9d0189",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(1) > .subcategory-image .replace-2x",
+      "targets": [
+        ["css=li:nth-child(1) > .subcategory-image .replace-2x", "css:finder"],
+        ["xpath=//img[contains(@src,'http://automationpractice.com/img/c/4-medium_default.jpg')]", "xpath:img"],
+        ["xpath=//div[@id='subcategories']/ul/li/div/a/img", "xpath:idRelative"],
+        ["xpath=//li/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b2c1d15e-dc4c-4fba-8f42-5c199bdb10b2",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,900)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9e2c4fcf-8e2c-4216-a4ab-2843811bf6dd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(3)",
+      "targets": [
+        ["css=.row:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='columns']/div[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1b665815-7d92-4d77-9c11-12ab941b8778",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(2) > .subcategory-image .replace-2x",
+      "targets": [
+        ["css=li:nth-child(2) > .subcategory-image .replace-2x", "css:finder"],
+        ["xpath=//img[contains(@src,'http://automationpractice.com/img/c/7-medium_default.jpg')]", "xpath:img"],
+        ["xpath=//div[@id='subcategories']/ul/li[2]/div/a/img", "xpath:idRelative"],
+        ["xpath=//li[2]/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "614113e4-3023-4bb1-9fdd-b0a5024ce70f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,600)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1dbe8e10-6463-4019-9503-c34592a26519",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product_img_link > .replace-2x",
+      "targets": [
+        ["css=.product_img_link > .replace-2x", "css:finder"],
+        ["xpath=//img[@alt='Blusa']", "xpath:img"],
+        ["xpath=//div[@id='center_column']/ul/li/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//li/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb7c623c-e20a-4ea3-86d7-035b35234675",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,600)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fe469350-389e-4570-b969-fb1c89a6919b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(3)",
+      "targets": [
+        ["css=.row:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='columns']/div[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "56244189-d8fb-4cc3-ac9a-fb71b05868f9",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["9ea9beed-22c3-4d3a-b85b-5bdfe092a8cd"]
+  }],
+  "urls": ["https://www.google.com/", "http://automationpractice.com/index.php"],
+  "plugins": []
+}

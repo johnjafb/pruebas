@@ -1,0 +1,261 @@
+{
+  "id": "06696d30-6e91-42a2-96c3-2f7ec4b95049",
+  "version": "2.0",
+  "name": "caso uno",
+  "url": "http://automationpractice.com/index.php",
+  "tests": [{
+    "id": "9ea9beed-22c3-4d3a-b85b-5bdfe092a8cd",
+    "name": "caso#2",
+    "commands": [{
+      "id": "fad9ffbe-dd5a-41f1-b2cf-686fe3d44877",
+      "comment": "",
+      "command": "open",
+      "target": "http://automationpractice.com/index.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dce958a4-f09e-4867-98ac-769f31efe648",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1376x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ffbfbf6d-37df-4a80-a496-7aeee4177a67",
+      "comment": "",
+      "command": "click",
+      "target": "css=#contact-link font > font",
+      "targets": [
+        ["css=#contact-link font > font", "css:finder"],
+        ["xpath=//div[@id='contact-link']/a/font/font", "xpath:idRelative"],
+        ["xpath=//div[2]/a/font/font", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d5dc762-731a-4a96-a0d1-7558d99ca9ff",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navigation_page > font > font",
+      "targets": [
+        ["css=.navigation_page > font > font", "css:finder"],
+        ["xpath=//div[@id='columns']/div/span[2]/font/font", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/span[2]/font/font", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e8ccb18-a93e-43d8-9e68-c5b5c779bb0b",
+      "comment": "",
+      "command": "click",
+      "target": "css=fieldset > .clearfix",
+      "targets": [
+        ["css=fieldset > .clearfix", "css:finder"],
+        ["xpath=//div[@id='center_column']/form/fieldset/div", "xpath:idRelative"],
+        ["xpath=//fieldset/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "42e3ffa7-7974-4dc7-8967-bd65733a342d",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_contact",
+      "targets": [
+        ["id=id_contact", "id"],
+        ["name=id_contact", "name"],
+        ["css=#id_contact", "css:finder"],
+        ["xpath=//select[@id='id_contact']", "xpath:attributes"],
+        ["xpath=//div[@id='uniform-id_contact']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d745710-cc70-4b64-890b-39135f10f82a",
+      "comment": "",
+      "command": "select",
+      "target": "id=id_contact",
+      "targets": [],
+      "value": "label=Servicio al Cliente"
+    }, {
+      "id": "05995302-33b3-4f82-91a0-fc1fe4af205a",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_contact",
+      "targets": [
+        ["id=id_contact", "id"],
+        ["name=id_contact", "name"],
+        ["css=#id_contact", "css:finder"],
+        ["xpath=//select[@id='id_contact']", "xpath:attributes"],
+        ["xpath=//div[@id='uniform-id_contact']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "261aadd3-52cf-4612-bb9c-7f9b594bd9a4",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=from", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='center_column']/form/fieldset/div/div/p[4]/input", "xpath:idRelative"],
+        ["xpath=//p[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "23aa0506-e84f-4c35-9a4e-bcf06e30b7e5",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=from", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='center_column']/form/fieldset/div/div/p[4]/input", "xpath:idRelative"],
+        ["xpath=//p[4]/input", "xpath:position"]
+      ],
+      "value": "FAJARDOJAFB@GMAIL.COM"
+    }, {
+      "id": "666223cf-9b50-47aa-857e-9aebbaf62974",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=from", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='center_column']/form/fieldset/div/div/p[4]/input", "xpath:idRelative"],
+        ["xpath=//p[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f2354990-aadf-496d-8d24-57b453d74262",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=from", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[@id='center_column']/form/fieldset/div/div/p[4]/input", "xpath:idRelative"],
+        ["xpath=//p[4]/input", "xpath:position"]
+      ],
+      "value": "FAJARDOJpFB@GMAIL.COM"
+    }, {
+      "id": "a08f8507-a343-44fb-8622-39d7147fa5b4",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_order",
+      "targets": [
+        ["id=id_order", "id"],
+        ["name=id_order", "name"],
+        ["css=#id_order", "css:finder"],
+        ["xpath=//input[@id='id_order']", "xpath:attributes"],
+        ["xpath=//div[@id='center_column']/form/fieldset/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2bdb7068-26b7-493d-b42b-51373a05bb41",
+      "comment": "",
+      "command": "type",
+      "target": "id=id_order",
+      "targets": [
+        ["id=id_order", "id"],
+        ["name=id_order", "name"],
+        ["css=#id_order", "css:finder"],
+        ["xpath=//input[@id='id_order']", "xpath:attributes"],
+        ["xpath=//div[@id='center_column']/form/fieldset/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "112121GGGG2"
+    }, {
+      "id": "8ac26449-0245-4406-a5c5-d522b802c687",
+      "comment": "",
+      "command": "click",
+      "target": "id=message",
+      "targets": [
+        ["id=message", "id"],
+        ["name=message", "name"],
+        ["css=#message", "css:finder"],
+        ["xpath=//textarea[@id='message']", "xpath:attributes"],
+        ["xpath=//div[@id='center_column']/form/fieldset/div/div[2]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ec4e8f8-ab40-4977-ad40-c6525220919f",
+      "comment": "",
+      "command": "type",
+      "target": "id=message",
+      "targets": [
+        ["id=message", "id"],
+        ["name=message", "name"],
+        ["css=#message", "css:finder"],
+        ["xpath=//textarea[@id='message']", "xpath:attributes"],
+        ["xpath=//div[@id='center_column']/form/fieldset/div/div[2]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "kjkjkjkju8978768969"
+    }, {
+      "id": "1c4f95d3-329f-4ce1-afed-37a8d522c569",
+      "comment": "",
+      "command": "click",
+      "target": "css=#submitMessage font > font",
+      "targets": [
+        ["css=#submitMessage font > font", "css:finder"],
+        ["xpath=//button[@id='submitMessage']/span/font/font", "xpath:idRelative"],
+        ["xpath=//div[2]/button/span/font/font", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3903488f-86fa-4829-b348-6e9c26515fbd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.footer_links",
+      "targets": [
+        ["css=.footer_links", "css:finder"],
+        ["xpath=//div[@id='center_column']/ul", "xpath:idRelative"],
+        ["xpath=//div[3]/div/ul", "xpath:position"],
+        ["xpath=//ul[contains(.,'Hogar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "63983a63-8e86-4a04-8df3-3fb89902ae69",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navigation_page > font > font",
+      "targets": [
+        ["css=.navigation_page > font > font", "css:finder"],
+        ["xpath=//div[@id='columns']/div/span[2]/font/font", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/span[2]/font/font", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3a2bdab-02da-4f96-8c2f-d4bbed0a2c2f",
+      "comment": "",
+      "command": "click",
+      "target": "css=li > .btn > span",
+      "targets": [
+        ["css=li > .btn > span", "css:finder"],
+        ["xpath=//div[@id='center_column']/ul/li/a/span", "xpath:idRelative"],
+        ["xpath=//li/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Hogar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "56244189-d8fb-4cc3-ac9a-fb71b05868f9",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["9ea9beed-22c3-4d3a-b85b-5bdfe092a8cd"]
+  }],
+  "urls": ["https://www.google.com/"],
+  "plugins": []
+}

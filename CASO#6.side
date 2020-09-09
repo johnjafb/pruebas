@@ -1,0 +1,238 @@
+{
+  "id": "06696d30-6e91-42a2-96c3-2f7ec4b95049",
+  "version": "2.0",
+  "name": "caso uno",
+  "url": "http://automationpractice.com/index.php",
+  "tests": [{
+    "id": "9ea9beed-22c3-4d3a-b85b-5bdfe092a8cd",
+    "name": "caso#6",
+    "commands": [{
+      "id": "e1ef81a6-0723-439a-81d9-d79aeed3650b",
+      "comment": "",
+      "command": "open",
+      "target": "http://automationpractice.com/index.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8f0bcb30-20ef-4526-8930-d02ae5ffc290",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1376x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dd26d6f6-0797-4147-bbcb-f7e8348e8d07",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sfHover > .sf-with-ul > font > font",
+      "targets": [
+        ["css=.sfHover > .sf-with-ul > font > font", "css:finder"],
+        ["xpath=//div[@id='block_top_menu']/ul/li[2]/a/font/font", "xpath:idRelative"],
+        ["xpath=//div[6]/ul/li[2]/a/font/font", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "65df908f-8402-4f84-8837-0223034a74c2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sfHover > .sf-with-ul",
+      "targets": [
+        ["css=.sfHover > .sf-with-ul", "css:finder"],
+        ["xpath=//div[@id='block_top_menu']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[@href='http://automationpractice.com/index.php?id_category=8&controller=category'])[2]", "xpath:href"],
+        ["xpath=//div[6]/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d91851c2-38a5-4ae8-90c1-636355d442ee",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sfHover:nth-child(1) font > font",
+      "targets": [
+        ["css=.sfHover:nth-child(1) font > font", "css:finder"],
+        ["xpath=//div[@id='block_top_menu']/ul/li[2]/ul/li/a/font/font", "xpath:idRelative"],
+        ["xpath=//div[6]/ul/li[2]/ul/li/a/font/font", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f6cd06d-a0a0-4c64-8f2e-679350f9ba9c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sfHover > .sf-with-ul > font > font",
+      "targets": [
+        ["css=.sfHover > .sf-with-ul > font > font", "css:finder"],
+        ["xpath=//div[@id='block_top_menu']/ul/li[2]/a/font/font", "xpath:idRelative"],
+        ["xpath=//div[6]/ul/li[2]/a/font/font", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "91b3b440-9008-47df-88bc-164e0dab41fa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sfHoverForce font > font",
+      "targets": [
+        ["css=.sfHoverForce font > font", "css:finder"],
+        ["xpath=//div[@id='block_top_menu']/ul/li[2]/a/font/font", "xpath:idRelative"],
+        ["xpath=//li[2]/a/font/font", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "749cd2ee-81f2-4f67-8bd2-5ea0e1763239",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sfHoverForce font > font",
+      "targets": [
+        ["css=.sfHoverForce font > font", "css:finder"],
+        ["xpath=//div[@id='block_top_menu']/ul/li[2]/a/font/font", "xpath:idRelative"],
+        ["xpath=//li[2]/a/font/font", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d7ee8306-c359-40e9-8415-d8b819f649a4",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.sfHover > .sf-with-ul > font > font",
+      "targets": [
+        ["css=.sfHover > .sf-with-ul > font > font", "css:finder"],
+        ["xpath=//div[@id='block_top_menu']/ul/li[2]/a/font/font", "xpath:idRelative"],
+        ["xpath=//div[6]/ul/li[2]/a/font/font", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e23f540f-b62d-426c-b1f1-7fb6ddfa2224",
+      "comment": "",
+      "command": "click",
+      "target": "css=.submenu-container > .sfHover font > font",
+      "targets": [
+        ["css=.submenu-container > .sfHover font > font", "css:finder"],
+        ["xpath=//div[@id='block_top_menu']/ul/li[2]/ul/li[2]/a/font/font", "xpath:idRelative"],
+        ["xpath=//div[6]/ul/li[2]/ul/li[2]/a/font/font", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "579a7f0d-6b30-473e-9df1-cf8f158ca34f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.breadcrumb",
+      "targets": [
+        ["css=.breadcrumb", "css:finder"],
+        ["xpath=//div[@id='columns']/div", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1b19f9f0-9be7-42fd-b696-4fb35201ab2c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sfHover font > font",
+      "targets": [
+        ["css=.sfHover font > font", "css:finder"],
+        ["xpath=//div[@id='block_top_menu']/ul/li[2]/a/font/font", "xpath:idRelative"],
+        ["xpath=//li[2]/a/font/font", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "706bd36d-6401-43ab-a277-a0ec990a4d5b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sfHoverForce font > font",
+      "targets": [
+        ["css=.sfHoverForce font > font", "css:finder"],
+        ["xpath=//div[@id='block_top_menu']/ul/li[2]/a/font/font", "xpath:idRelative"],
+        ["xpath=//li[2]/a/font/font", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5843000f-22f6-4fa0-b48a-0f529a7c9910",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sfHoverForce font > font",
+      "targets": [
+        ["css=.sfHoverForce font > font", "css:finder"],
+        ["xpath=//div[@id='block_top_menu']/ul/li[2]/a/font/font", "xpath:idRelative"],
+        ["xpath=//li[2]/a/font/font", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "16d8c2bf-4b20-4c4c-8200-524a7ab45768",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.sfHover > .sf-with-ul > font > font",
+      "targets": [
+        ["css=.sfHover > .sf-with-ul > font > font", "css:finder"],
+        ["xpath=//div[@id='block_top_menu']/ul/li[2]/a/font/font", "xpath:idRelative"],
+        ["xpath=//div[6]/ul/li[2]/a/font/font", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "12c3b2d9-0035-46f5-9f8a-47623ebcf334",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sfHoverForce font > font",
+      "targets": [
+        ["css=.sfHoverForce font > font", "css:finder"],
+        ["xpath=//div[@id='block_top_menu']/ul/li[2]/a/font/font", "xpath:idRelative"],
+        ["xpath=//li[2]/a/font/font", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e519cbe4-d1d7-4973-b3d5-dbdf514aac76",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sfHover > .sf-with-ul",
+      "targets": [
+        ["css=.sfHover > .sf-with-ul", "css:finder"],
+        ["xpath=//div[@id='block_top_menu']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[@href='http://automationpractice.com/index.php?id_category=8&controller=category'])[2]", "xpath:href"],
+        ["xpath=//div[6]/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "84a8c6b7-e42a-4ae6-b8c3-4b131a29ddb1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sfHover:nth-child(3) > a",
+      "targets": [
+        ["css=.sfHover:nth-child(3) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Summer Dresses')])[2]", "xpath:link"],
+        ["xpath=//div[@id='block_top_menu']/ul/li[2]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[@href='http://automationpractice.com/index.php?id_category=11&controller=category'])[2]", "xpath:href"],
+        ["xpath=//div[6]/ul/li[2]/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "37ee94d2-becf-4ef3-a360-582a856f7dca",
+      "comment": "",
+      "command": "click",
+      "target": "css=.content_scene_cat_bg",
+      "targets": [
+        ["css=.content_scene_cat_bg", "css:finder"],
+        ["xpath=//div[@id='center_column']/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "76055b9e-480e-4c7a-83e6-6e7c263dbbff",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.last-item-of-tablet-line .replace-2x",
+      "targets": [
+        ["css=.last-item-of-tablet-line .replace-2x", "css:finder"],
+        ["xpath=(//img[@alt='Vestido de verano estampado'])[2]", "xpath:img"],
+        ["xpath=//div[@id='center_column']/ul/li[2]/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//li[2]/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "56244189-d8fb-4cc3-ac9a-fb71b05868f9",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["9ea9beed-22c3-4d3a-b85b-5bdfe092a8cd"]
+  }],
+  "urls": ["https://www.google.com/", "http://automationpractice.com/index.php"],
+  "plugins": []
+}
